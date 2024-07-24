@@ -1,8 +1,8 @@
-# prometheus.yml
-global:
-  scrape_interval: 15s
+# # prometheus.yml
+# global:
+#   scrape_interval: 15s
 
-scrape_configs:
-  - job_name: 'my-express-service'
-    static_configs:
-      - targets: ['localhost:6969']
+# scrape_configs:
+#   - job_name: 'my-express-service'
+#     static_configs:
+#       - targets: ['app:6969']

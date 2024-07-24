@@ -35,7 +35,7 @@ app.use((req, res, next) => {
 
 // Konfigurasi winston logger
 const logger = winston.createLogger({
-  level: 'info',
+  level: 'debug',
   format: winston.format.combine(
     winston.format.colorize(),
     winston.format.simple()
